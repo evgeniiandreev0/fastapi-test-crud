@@ -1,0 +1,31 @@
+[project]
+name = "fastapi-test-crud"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "alembic>=1.15.1",
+    "bcrypt>=4.3.0",
+    "fastapi[standard]>=0.115.11",
+    "jose>=1.0.0",
+    "loguru>=0.7.3",
+    "passlib>=1.7.4",
+    "psycopg2-binary>=2.9.10",
+    "pydantic>=2.10.6",
+    "pydantic-extra-types>=2.10.3",
+    "python-jose>=3.4.0",
+    "python-multipart>=0.0.20",
+    "redis>=5.2.1",
+    "sqlalchemy>=2.0.39",
+]
+
+[dependency-groups]
+dev = [
+    "mypy>=1.15.0",
+    "pylint>=3.3.5",
+    "pytest>=8.3.5",
+    "ruff>=0.11.0",
+    "types-passlib>=1.7.7.20241221",
+    "types-python-jose>=3.4.0.20250224",
+]
